@@ -3,7 +3,8 @@ module HealthDataStandards
     class MeasureValidator
       include BaseValidator
 
-      def initialize(template_oid)
+      def initialize(name, template_oid)
+        @name = name
         @template_oid = template_oid
 
       end

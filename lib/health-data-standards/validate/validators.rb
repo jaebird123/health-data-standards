@@ -19,7 +19,7 @@ module HealthDataStandards
       include Singleton
 
       def initialize()
-        super("2.16.840.1.113883.10.20.24.3.97")
+        super('Cat 1 Measure ID Validator', "2.16.840.1.113883.10.20.24.3.97")
       end
 
     end
@@ -28,7 +28,7 @@ module HealthDataStandards
       include Singleton
 
       def initialize()
-        super("2.16.840.1.113883.10.20.27.3.1")
+        super('Cat 1 Measure ID Validator', "2.16.840.1.113883.10.20.27.3.1")
       end
 
     end
@@ -46,7 +46,7 @@ module HealthDataStandards
       include Singleton
 
       def initialize
-	super("QRDA Cat 1 R3 Validator", File.join(BASE_DIR, QRDA_CAT1_R3_SCHEMATRON))
+        super("QRDA Cat 1 R3 Validator", File.join(BASE_DIR, QRDA_CAT1_R3_SCHEMATRON))
       end
 
     end
